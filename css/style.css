@@ -9,12 +9,12 @@
 	margin: 20px;
 }
 
-#logo {
+.logo {
 	width: 60px;
 	vertical-align: middle;
 }
 
-#title {
+.title {
 	font-size: 40px;
 	vertical-align: middle;
 	margin: 10px;
@@ -25,17 +25,22 @@
 .container {
 	background-color: rgb(246, 248, 249);
 	height: 100vh;
-	padding-top: 80px;
+	padding-top: 60px;
 }
 
 .container-80 {
 	background-color: white;
 	margin: 0 200px;
 	border-radius: 5px;
-	height: 600px;
+	height: auto;
 }
 
-#add-task {
+.margin {
+	border-bottom: 1px solid rgb(145, 149, 151);
+	padding-bottom: 10px;
+}
+
+.add-task {
 	background-color: rgb(70, 173, 241);
 	color: white;
 	border-radius: 10px;
@@ -46,7 +51,7 @@
 	border: none;
 }
 
-#add-section {
+.add-section {
 	background-color: white;
 	color: lightgray;
 	border-radius: 10px;
@@ -54,4 +59,63 @@
 	height: 30px;
 	width: 80px;
 	border: 1px solid grey;
+}
+
+/* ******** all task ******* */
+
+.task {
+	margin-left: 40px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.subtitle {
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.icon {
+	margin-left: 40px;
+	border: 1px solid green;
+	border-radius: 50%;
+	color: green;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+}
+
+.cross {
+	color: red;
+	border: 1px solid red;
+}
+
+.editorial {
+	background-color: rgb(70, 173, 241);
+	color: white;
+	border-radius: 10px;
+	margin-top: 20px;
+	height: 30px;
+	width: 60px;
+	border: none;
+}
+.violet {
+	background-color: rgb(156, 114, 228);
+}
+
+.green {
+	background-color: rgb(100, 192, 169);
+}
+
+.yellow {
+	background-color: rgb(242, 158, 51);
+}
+
+.magenta {
+	background-color: rgb(215, 99, 161);
+}
+
+.lightgreen {
+	background-color: rgb(176, 201, 37);
 }
