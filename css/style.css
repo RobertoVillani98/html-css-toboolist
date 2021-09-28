@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container-header {
+	margin: 20px;
+}
+
+#logo {
+	width: 80px;
+	vertical-align: middle;
+}
+
+#title {
+	font-size: 50px;
+	vertical-align: middle;
+	margin: 10px;
+}
